@@ -15,7 +15,7 @@ const imgStyles = {
   maxWidth: '95%',
   maxHeight: '93%',
   transitionDuration: '.6s',
-  boxShadow: '-1px 3px 10px -1px rgba(0,0,0,0.75)',
+  // boxShadow: '-1px 3px 10px -1px rgba(0,0,0,0.75)',
 };
 
 const styles = {
@@ -109,9 +109,7 @@ class Graphic extends Component {
           <Step data={currentImg} key={value}>
             <div className={classes.step}>
               {value.split('[NEWLINE]').map(text => (
-                <p className={classes.text} key={text}>
-                  {text.trim()}
-                </p>
+                <p className={classes.text} key={text} dangerouslySetInnerHTML={{ __html: text.trim() }} />
               ))}
             </div>
           </Step>,
