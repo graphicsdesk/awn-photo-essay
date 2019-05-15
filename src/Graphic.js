@@ -1,7 +1,13 @@
 import React, { Component } from 'react';
 import { Scrollama, Step } from 'react-scrollama';
 import injectSheet from 'react-jss';
+import stickybits from 'stickybits';
 
+import Navbar from './Navbar';
+import Header from './Header';
+
+const STICKY_ID = 'make-me-rad-n-sticky';
+stickybits('#' + STICKY_ID);
 const SCROLLAMA_OFFSET = window.innerWidth > 575 ? 0.5 : 0.8;
 
 const imgStyles = {
@@ -43,12 +49,12 @@ const styles = {
     opacity: 0,
   },
   scroller: {
-    flexBasis: '35%',
-    padding: '70vh 0 20vh 0',
+    flexBasis: '40%',
+    position: 'relative',
   },
   step: {
     margin: '0 auto',
-    maxWidth: '500px',
+    maxWidth: '460px',
     padding: '10px',
     marginBottom: '80vh',
   },
@@ -62,7 +68,7 @@ const styles = {
     fontFamily: 'Merriweather',
     fontSize: '1.05rem',
     margin: '1.2rem 0 1rem 0',
-    lineHeight: '1.7',
+    lineHeight: '1.8',
   },
   credit: {
     color: '#aaa',
@@ -76,11 +82,12 @@ const styles = {
 
   '@media (max-width: 575px)': {
     main: {
-      flexDirection: 'column',
+      display: 'block',
     },
     scroller: {
       paddingTop: 0,
       zIndex: '1',
+      transform: 'translateY(-100vh)',
     },
     step: {
       backgroundColor: 'rgba(255, 255, 255, 0.9)',
@@ -157,6 +164,8 @@ class Graphic extends Component {
           ))}
         </div>
         <div className={classes.scroller}>
+          <Navbar />
+          <Header />
           <Scrollama
             offset={SCROLLAMA_OFFSET}
             onStepEnter={this.onStepEnter}

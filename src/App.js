@@ -15,7 +15,6 @@ const { copy } = archieml.load(
 
 const styles = {
   App: {
-    margin: '5vh 0',
   },
 };
 

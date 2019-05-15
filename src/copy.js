@@ -2,7 +2,7 @@ export default `
 
 [+copy]
 
-image: https://int.nyt.com/data/tap-stories/assets/5c06dc9c94db960001b82f84/069d4821f81611e894354b825341e8a4-img.jpg
+image: https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/RTCVTHKADBDZXMMHFWSNMRYCNE.png
 
 Derrick Wilder, GS ‘05, said Awn was instrumental in his decision to return to school through General Studies nearly 20 years after he graduated from high school. Prior to GS, Wilder pursued a career in professional dance even ran his own company. [NEWLINE] “I was unsure if I wanted to return at school after starting a professional life, and after [a conversation with Awn], I was put at ease. People often say, ‘my door’s always open,’ and it’s just a saying. His door was actually always open no matter when you showed up. … He started to plant the seeds in how you could make a change in how you behave,” Wilder said. 
 
