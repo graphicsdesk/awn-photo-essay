@@ -54,15 +54,9 @@ const styles = {
   },
   step: {
     margin: '0 auto',
-    maxWidth: '460px',
-    padding: '10px',
+    maxWidth: '420px',
+    padding: '17px',
     marginBottom: '80vh',
-  },
-  artistName: {
-    fontFamily: 'Merriweather',
-    fontSize: '1.1rem',
-    fontWeight: 700,
-    margin: '0',
   },
   text: {
     fontFamily: 'Merriweather',
@@ -70,17 +64,8 @@ const styles = {
     margin: '1.2rem 0 1rem 0',
     lineHeight: '1.8',
   },
-  credit: {
-    color: '#aaa',
-    fontSize: '0.8rem',
-    margin: '0 2rem 1rem 0',
-    borderTop: '0.8px solid #ddd',
-    paddingTop: '0.8rem',
-    fontWeight: '20px',
-    fontFamily: 'Open Sans',
-  },
 
-  '@media (max-width: 575px)': {
+  '@media (max-width: 767px)': {
     main: {
       display: 'block',
     },
@@ -92,20 +77,18 @@ const styles = {
     step: {
       backgroundColor: 'rgba(255, 255, 255, 0.9)',
     },
-    credit: {
-      color: 'black',
-      borderTop: '0.8px solid #ddd',
-      borderColor: 'black',
-      fontSize: '0.6rem',
+    img: {
+      maxWidth: '100%',
+      maxHeight: '100%',
+    },
+    hideImg: {
+      maxWidth: '100%',
+      maxHeight: '100%',
     },
     text: {
       justifyContent: 'center',
       textAlign: 'center',
       fontSize: '1rem',
-    },
-    artistName: {
-      textAlign: 'center',
-      paddingTop: '1rem',
     },
   },
 };
@@ -156,9 +139,7 @@ class Graphic extends Component {
           {this.images.map(src => (
             <img
               key={src}
-              className={
-                image === src ? classes.img : classes.hideImg
-              }
+              className={image === src ? classes.img : classes.hideImg}
               src={src}
             />
           ))}
@@ -166,10 +147,7 @@ class Graphic extends Component {
         <div className={classes.scroller}>
           <Navbar />
           <Header />
-          <Scrollama
-            offset={SCROLLAMA_OFFSET}
-            onStepEnter={this.onStepEnter}
-          >
+          <Scrollama offset={SCROLLAMA_OFFSET} onStepEnter={this.onStepEnter}>
             {this.steps}
           </Scrollama>
         </div>

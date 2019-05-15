@@ -9,13 +9,10 @@ import Image from './Image';
 import Break from './Break';
 import Header from './Header';
 
-const { copy } = archieml.load(
-  copyString,
-);
+const { copy } = archieml.load(copyString);
 
 const styles = {
-  App: {
-  },
+  App: {},
 };
 
 const App = ({ classes }) => {
