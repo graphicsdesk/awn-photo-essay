@@ -138,6 +138,7 @@ class Graphic extends Component {
 
     return (
       <div className={classes.main}>
+        <Navbar />
         <div className={classes.graphic}>
           {this.images.map(src => (
             <img
@@ -148,7 +149,6 @@ class Graphic extends Component {
           ))}
         </div>
         <div className={classes.scroller}>
-          <Navbar />
           <Header />
           <Scrollama offset={SCROLLAMA_OFFSET} onStepEnter={this.onStepEnter}>
             {this.steps}

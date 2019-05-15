@@ -9,6 +9,8 @@ const styles = {
     paddingBottom: '9px',
     background: '#fff',
     width: '100%',
+    position: 'fixed',
+    left: 0,
   },
   logo: {
     height: '17px',
