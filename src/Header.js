@@ -9,7 +9,7 @@ const styles = {
   headline: {
     textAlign: 'center',
     padding: '0 12%',
-    fontFamily: 'Merriweather',
+    fontFamily: 'Minion Pro',
     fontSize: '2.5rem',
     lineHeight: 1.5,
     color: '#333',

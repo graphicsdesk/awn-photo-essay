@@ -21,8 +21,7 @@ const imgStyles = {
 const styles = {
   main: {
     padding: '0 15px',
-    marginBottom: '2rem',
-    fontFamily: 'Helvetica',
+    fontFamily: 'Minion Pro',
     display: 'flex',
     justifyContent: 'space-evenly',
   },
@@ -59,8 +58,8 @@ const styles = {
     marginBottom: '80vh',
   },
   text: {
-    fontFamily: 'Merriweather',
-    fontSize: '1.05rem',
+    fontFamily: 'Minion Pro',
+    fontSize: '1.15rem',
     margin: '1.2rem 0 1rem 0',
     lineHeight: '1.8',
   },
@@ -108,9 +107,15 @@ class Graphic extends Component {
         acc.push(
           <Step data={currentImg} key={value}>
             <div className={classes.step}>
-              {value.split('[NEWLINE]').map(text => (
-                <p className={classes.text} key={text} dangerouslySetInnerHTML={{ __html: text.trim() }} />
-              ))}
+              {value
+                .split('[NEWLINE]')
+                .map(text => (
+                  <p
+                    className={classes.text}
+                    key={text}
+                    dangerouslySetInnerHTML={{ __html: text.trim() }}
+                  />
+                ))}
             </div>
           </Step>,
         );

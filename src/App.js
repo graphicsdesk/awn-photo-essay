@@ -4,10 +4,6 @@ import archieml from 'archieml';
 import copyString from './copy';
 
 import Graphic from './Graphic';
-import Paragraph from './Paragraph';
-import Image from './Image';
-import Break from './Break';
-import Header from './Header';
 
 const { copy } = archieml.load(copyString);
 

@@ -1,10 +1,11 @@
-export default `WAIT JAOSON NOT EVERYTHING IS DONE
-
+export default ` 
 [+copy]
 
 image: https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/TCWLLJO7AFA35IQ5F3DHIM3VVU.jpg
 
 On Tuesday afternoon, hundreds of students, faculty, administrators, family members, and friends gathered in the Roone Arledge Auditorium in Lerner Hall to commemorate the life of former School of General Studies Dean Peter Awn through speeches, music, and photographs. Many also wore colorful socks, items of clothing that almost always accompanied the former administrator. 
+
+image: https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/DTL65CGECJCNXDEUL3TKSG5NJA.jpg
 
 Awn <a href="https://www.columbiaspectator.com/news-features/2019/02/18/peter-awn-whose-compassion-and-charisma-shaped-the-identity-of-gs-has-died-3/>">died at the age of 75</a> as a result of injuries sustained during a car crash while walking home from campus on the evening of Jan. 25. He remained in critical condition at the Columbia University Irving Medical Center until his death on Feb. 17. 
 
@@ -63,7 +64,7 @@ image: https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/DFUA5H
 
 In her ten years at Columbia, Reyes Llopis-García, a senior lecturer for the department of Latin American and Iberian cultures, remembers how Awn would reach out to her and other faculty members in a way that she said deans typically did not. Awn asked Llopis-García to attend GS Class Day as a way to facilitate relationships between faculty and students. [NEWLINE]“He contacted us personally and said ‘Hey, I would be really, really honored, and it would be really appreciated by our students, if you came to the Class Day for the School of General Studies.’ I almost always have been a part of graduation for GS, and he always made a point to say hello and ask me what had transpired during the year. ... I was very sorry to hear about his passing,” Llopis-García said.
 
-image: https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/QHLB2BKLTZGXTJZPGN6CATYBSM.jpg
+image: https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/6IRRVN6PK5HQXIYCVISYQTI6Y4.jpg
 
 The ceremony concluded with a performance by Howard Fishman and the Biting Fish Brass Band, who led the attendees out to a reception. 
 
