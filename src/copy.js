@@ -25,9 +25,9 @@ image: https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/FJZCPA
 
 image: https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/FXXO2NDJ3BEGRMHAOAOQY3NZLA.jpg
 
-Annie Cardelus, GS ’91, met Awn at an alumni event. She wore pink and grey striped socks in honor of his style. “He was just funny, charismatic, energetic. [He] loved General Studies—he was a community builder. I’m here to represent the community he built,” Cardelus said.  
+Annie Cardelus (right), GS ’91, met Awn at an alumni event. She wore pink and grey striped socks in honor of his style. “He was just funny, charismatic, energetic. [He] loved General Studies—he was a community builder. I’m here to represent the community he built,” Cardelus said.  
 
-Awn, Joan Arnold, GS ’72, said, influenced her to trek across the world through their conversations. Though Arnold did not know Awn personally during her time as an undergraduate, she met eventually him at an alumni event. “I just love Dean Awn. He was the one that interested me to go to the Middle East, Morocco, and Turkey,” Arnold said. 
+Awn, Joan Arnold (left), GS ’72, said, influenced her to trek across the world through their conversations. Though Arnold did not know Awn personally during her time as an undergraduate, she met eventually him at an alumni event. “I just love Dean Awn. He was the one that interested me to go to the Middle East, Morocco, and Turkey,” Arnold said. 
 
 image: https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/JQOBQAVJ6NBIHMAGXX2ZYQ65IA.jpg
 
