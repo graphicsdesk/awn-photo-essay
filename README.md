@@ -1,1 +1,1 @@
-**HED: The Uptown Arts Stroll Paints a Portrait of Upper Manhattan**
+**HED: Why they came to celebrate the life of Peter Awn**
